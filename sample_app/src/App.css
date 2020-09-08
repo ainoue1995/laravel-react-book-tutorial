@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  padding: 0 0.5em;
+  width: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.title-box {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.datepicker-form {
+  font: inherit;
+  color: none;
+  border-color: gray;
+  border-radius: 4px;
+  width: 91%;
+  height: 1.3em;
+  margin: 0;
+  display: block;
+  padding: 10px;
+  min-width: 0;
+  background: none;
+  box-sizing: content-box;
+  animation-name: mui-auto-fill-cancel;
+  letter-spacing: inherit;
+  animation-duration: 10ms;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (min-width: 640px) {
+  .row {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media (min-width: 640px) {
+  .grid-12,
+  grid-6,
+  grid-4 {
+    float: left;
+    padding: 0 0.5em;
+  }
+}
+@media (min-width: 640px) {
+  .grid-12 {
+    width: 100%;
+  }
+}
+
+.block-grid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 -1% 30px;
+  padding: 0;
+}
+.block-grid li {
+  flex: 0 1 98%;
+  margin: 0 1% 30px;
+  padding: 0;
+  background: plum;
+}
+
+@media (min-width: 600px) {
+  .block-grid-1-2-3 li {
+    flex: 0 1 48%;
+  }
+}
+
+@media (min-width: 800px) {
+  .block-grid-1-2-3 li {
+    flex: 0 1 31.3333%;
+  }
+}
+
+.bookinfo-list {
+  text-align: left;
+  list-style: none;
+  padding: 20px 0 20px 20px;
+}

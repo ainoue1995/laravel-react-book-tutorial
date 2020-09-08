@@ -1,0 +1,15 @@
+curl -X POST --url http://localhost/api/books/ -H "Content-Type: application/json" \
+-d '{ \
+"title" : "ブック４", \
+"author" : "著者４", \
+"published_date" : "2020-09-07" \
+}'
+###
+
+curl -X PUT --url http://localhost/api/books/2 -H "Content-Type: application/json" \
+-d '{ \
+"id" : 2, \
+"title" : "ブック４", \
+"author" : "著者４", \
+"published_date" : "2020-09-07" \
+}'
